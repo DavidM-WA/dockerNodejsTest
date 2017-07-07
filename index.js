@@ -16,4 +16,4 @@ let app = express();
 let homeRoutes = homeRouter.routes(sequelize);
 app.use(homeRoutes);
 
-app.listen(3001);
+app.listen(3000);
